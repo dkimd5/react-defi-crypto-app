@@ -37,7 +37,7 @@ function Featured() {
 
         <div className="right">
           {data.map((currency) => (
-            <div className="card">
+            <div className="card" key={currency.id}>
               <div className="top">
                 <img src={currency.image} alt="" />
               </div>
