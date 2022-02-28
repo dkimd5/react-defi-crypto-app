@@ -23,7 +23,7 @@ function Featured() {
   if (!data) return null;
 
   return (
-    <div className="featured">
+    <div className="featured" id="Featured">
       <div className="container">
         {/* Left */}
 

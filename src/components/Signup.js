@@ -4,7 +4,7 @@ import Crypto from "../assets/trade.png";
 
 function Signup() {
   return (
-    <div className="signup">
+    <div className="signup" id="Earn">
       <div className="container">
         {/* left */}
 

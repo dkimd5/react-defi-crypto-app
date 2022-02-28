@@ -14,22 +14,22 @@ function Navbar() {
         </h1>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="/" className="hover-effect">
+            <a href="#Home" className="hover-effect">
               Home
             </a>
           </li>
           <li>
-            <a href="/" className="hover-effect">
+            <a href="#Featured" className="hover-effect">
               Featured
             </a>
           </li>
           <li>
-            <a href="/" className="hover-effect">
+            <a href="#Earn" className="hover-effect">
               Earn
             </a>
           </li>
           <li>
-            <a href="/" className="hover-effect">
+            <a href="#Contact" className="hover-effect">
               Contact
             </a>
           </li>
