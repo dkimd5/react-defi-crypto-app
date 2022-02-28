@@ -20,6 +20,8 @@ function Featured() {
       });
   }, []);
 
+  if (!data) return null;
+
   return (
     <div className="featured">
       <div className="container">
@@ -35,11 +37,11 @@ function Featured() {
 
         <div className="right">
           <div className="top">
-            <img src="" alt="" />
+            <img src={data[0].image} alt="" />
           </div>
           <div>
-            <h5>Bitcoin</h5>
-            <p>$49,000</p>
+            <h5>{data[0].name}</h5>
+            <p>${data[0].current_price.toLocaleString()}</p>
           </div>
           <span>
             <FiArrowUpRight />
