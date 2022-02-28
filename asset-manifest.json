@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-defi-crypto-app/static/css/main.47d69904.css",
+    "main.js": "/react-defi-crypto-app/static/js/main.a5ac2790.js",
+    "static/media/trade.png": "/react-defi-crypto-app/static/media/trade.a2c09083fbde76e9cac2.png",
+    "static/media/hero-img.png": "/react-defi-crypto-app/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "index.html": "/react-defi-crypto-app/index.html",
+    "main.47d69904.css.map": "/react-defi-crypto-app/static/css/main.47d69904.css.map",
+    "main.a5ac2790.js.map": "/react-defi-crypto-app/static/js/main.a5ac2790.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47d69904.css",
+    "static/js/main.a5ac2790.js"
+  ]
+}
