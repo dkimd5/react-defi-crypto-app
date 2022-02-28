@@ -36,17 +36,28 @@ function Featured() {
         {/* Right */}
 
         <div className="right">
-          <div className="top">
-            <img src={data[0].image} alt="" />
-          </div>
-          <div>
-            <h5>{data[0].name}</h5>
-            <p>${data[0].current_price.toLocaleString()}</p>
-          </div>
-          <span>
-            <FiArrowUpRight />
-            2.5%
-          </span>
+          {data.map((currency) => (
+            <div className="card">
+              <div className="top">
+                <img src={currency.image} alt="" />
+              </div>
+              <div>
+                <h5>{currency.name}</h5>
+                <p>${currency.current_price.toLocaleString()}</p>
+              </div>
+              {currency.price_change_percentage_24h < 0 ? (
+                <span className="red">
+                  <FiArrowDown />
+                  {currency.price_change_percentage_24h.toFixed(2)}%
+                </span>
+              ) : (
+                <span className="green">
+                  <FiArrowUpRight />
+                  {currency.price_change_percentage_24h.toFixed(2)}%
+                </span>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </div>
