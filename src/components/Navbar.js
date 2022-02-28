@@ -7,7 +7,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
 
   return (
-    <div className="header">
+    <div className={click ? "header" : "header overflow"}>
       <div className="container">
         <h1>
           De<span className="primary">Fi</span>
