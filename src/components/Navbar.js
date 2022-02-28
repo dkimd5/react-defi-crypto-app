@@ -27,7 +27,7 @@ function Navbar() {
           <button className="btn">Connect Wallet</button>
         </div>
         <div className="hamburger">
-          <FaBars />
+          <FaBars size={20} style={{ color: "#333" }} />
         </div>
       </div>
     </div>
