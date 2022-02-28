@@ -31,6 +31,12 @@
   margin-right: 4px;
 }
 
+.footer .icon:hover {
+  color: var(--primary);
+  transition: .5s;
+  transform: scale(120%);
+}
+
 .footer h5 {
   margin-top: 2rem;
 }

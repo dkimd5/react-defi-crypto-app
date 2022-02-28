@@ -14,41 +14,65 @@ function Footer() {
         <div className="col">
           <h5>Support</h5>
           <span className="bar"></span>
-          <a href="/">Contact Us</a>
-          <a href="/">Chat</a>
-          <a href="/">Help Center</a>
-          <a href="/">FAQ</a>
+          <a href="/" className="hover-effect">
+            Contact Us
+          </a>
+          <a href="/" className="hover-effect">
+            Chat
+          </a>
+          <a href="/" className="hover-effect">
+            Help Center
+          </a>
+          <a href="/" className="hover-effect">
+            FAQ
+          </a>
         </div>
         <div className="col">
           <h5>Developers</h5>
           <span className="bar"></span>
-          <a href="/">Cloud</a>
-          <a href="/">Commerce</a>
-          <a href="/">Documentation</a>
-          <a href="/">API</a>
+          <a href="/" className="hover-effect">
+            Cloud
+          </a>
+          <a href="/" className="hover-effect">
+            Commerce
+          </a>
+          <a href="/" className="hover-effect">
+            Documentation
+          </a>
+          <a href="/" className="hover-effect">
+            API
+          </a>
         </div>
         <div className="col">
           <h5>Company</h5>
           <span className="bar"></span>
-          <a href="/">About</a>
-          <a href="/">Information</a>
-          <a href="/">Legal</a>
-          <a href="/">Privacy</a>
+          <a href="/" className="hover-effect">
+            About
+          </a>
+          <a href="/" className="hover-effect">
+            Information
+          </a>
+          <a href="/" className="hover-effect">
+            Legal
+          </a>
+          <a href="/" className="hover-effect">
+            Privacy
+          </a>
         </div>
         <div className="col">
           <h5>Social</h5>
           <span className="bar"></span>
           <a href="/">
-            <FaFacebook className="icon" />
+            <FaFacebook size={20} className="icon" />
           </a>
           <a href="/">
-            <FaTwitter className="icon" />
+            <FaTwitter size={20} className="icon" />
           </a>
           <a href="/">
-            <FaLinkedin className="icon" />
+            <FaLinkedin size={20} className="icon" />
           </a>
           <a href="/">
-            <FaGithub className="icon" />
+            <FaGithub size={20} className="icon" />
           </a>
         </div>
       </div>
